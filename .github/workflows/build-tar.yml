@@ -1,8 +1,7 @@
 # This workflow pulls the latest version of AsyncAPI Generator and the template
 name: Build Image with AsyncAPI Generator and SCS Template
 
-on:
-  workflow_dispatch:
+on: push
 
 jobs:
   build-and-release:
